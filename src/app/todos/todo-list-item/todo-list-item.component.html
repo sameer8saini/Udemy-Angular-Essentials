@@ -7,5 +7,5 @@
 
   <br>
 
-  <button type="button" (click)="toggleComplete()" >Update to complete</button>
+  <button type="button" [disabled]="isButtonDisabled()" (click)="toggleComplete()" >Update to complete</button>
 </p>

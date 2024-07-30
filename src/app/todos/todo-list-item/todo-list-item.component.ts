@@ -17,4 +17,8 @@ export class TodoListItemComponent {
   toggleComplete() {
     this.isComplete.update((currentValue) => !currentValue);
   }
+
+  isButtonDisabled(): boolean {
+    return this.isComplete();
+  }
 }
