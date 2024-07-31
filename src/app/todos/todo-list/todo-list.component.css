@@ -1,0 +1,11 @@
+.todos {
+  border: 1px solid #EEE;
+  max-width: 500px;
+  margin-top: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: none;
+}

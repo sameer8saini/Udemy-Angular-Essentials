@@ -1,4 +1,8 @@
-p {
-  padding: 20px;
-  background-color: #EEE;
+li {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  background-color: #eee;
+  padding: 4px 4px;
+  margin: none;
 }

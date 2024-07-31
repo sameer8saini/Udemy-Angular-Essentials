@@ -1,4 +1,19 @@
-<h1>Todos</h1>
+@if (environment === 'dev') {
+  <div style="background-color: yellow;">
+    This is Development Environment
+  </div>
+} @else if (environment === 'test') {
+  <div style="background-color: green;">
+    This is Test Environment
+  </div>
+} @else {
+  <div style="background-color: black; color: white;">
+    This is Prod Environment
+  </div>
+}
+
+
+
 
 <app-todo-list></app-todo-list>
 

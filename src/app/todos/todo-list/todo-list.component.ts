@@ -9,5 +9,26 @@ import { TodoListItemComponent } from '../todo-list-item/todo-list-item.componen
   styleUrl: './todo-list.component.css'
 })
 export class TodoListComponent {
+  todos: TodoItem[] = [
+    {
+      title: 'Title 1'
+    },
+    {
+      title: 'Title 2'
+    },
+    {
+      title: 'Title 3'
+    },
+    {
+      title: 'Title 4'
+    },
+    {
+      title: 'Title 5'
+    }
+  ];
 
+}
+
+interface TodoItem {
+  title: string;
 }

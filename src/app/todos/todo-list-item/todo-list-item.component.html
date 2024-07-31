@@ -1,17 +1,12 @@
-<p>
-  {{ title() }}
-
-  <br />
-
-  Is complete: {{ isComplete() }}
-
-  <br />
-
-  <button
-    type="button"
-    [disabled]="isButtonDisabled()"
-    (click)="toggleComplete()"
-  >
-    Update to complete
-  </button>
-</p>
+<li>
+  <span>{{ title() }}</span>
+  <span>
+    <button
+      type="button"
+      [disabled]="isButtonDisabled()"
+      (click)="toggleComplete()"
+    >
+      Complete Task
+    </button>
+  </span>
+</li>

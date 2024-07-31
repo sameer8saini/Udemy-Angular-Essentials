@@ -11,4 +11,14 @@ import { TodoListComponent } from './todos/todo-list/todo-list.component';
 })
 export class AppComponent {
   title = 'Angular Essentials';
+
+  environment = EnvironmentName.Prod;
 }
+
+enum EnvironmentName {
+  Dev = 'dev',
+  Test = 'test',
+  Prod = 'prod'
+}
+
+
